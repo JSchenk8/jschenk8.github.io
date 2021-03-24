@@ -1,0 +1,10 @@
+
+.landing-image {
+  background-image: url(../images/LandingImage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@import "../../node_modules/bulma/bulma.sass";
