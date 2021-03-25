@@ -7,4 +7,28 @@
   background-size: cover;
 }
 
+
+.fade {
+  -webkit-transition: all 100ms linear;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 100ms linear;
+    -ms-transform: scale(1); 
+    -moz-transition: all 100ms linear;
+    -moz-transform: scale(1);
+    transition: all 100ms linear;
+    transform: scale(1);  
+    animation: fade 3s infinite;
+}
+
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
 @import "../../node_modules/bulma/bulma.sass";

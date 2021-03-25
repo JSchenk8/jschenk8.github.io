@@ -13,7 +13,7 @@ export default function LandingPage() {
       </div>
     </div>
     <div className="hero-foot has-text-centered">
-      <img id="scroll" src={scroll}></img>
+      <img className="fade" id="scroll" src={scroll}></img>
     </div>
   </section>
 }
