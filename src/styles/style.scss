@@ -20,6 +20,37 @@
     animation: fade 3s infinite;
 }
 
+.icon {
+  font-size: 4rem;
+  margin: 30px;
+  color: darkblue;
+}
+
+
+.iconDiv p {
+  display: none;
+}
+
+.iconDiv:hover {
+  background-color: rgba(0,0,0,0.8);
+  position: relative;
+  border-radius: 5px;
+}
+
+.iconDiv:hover p {
+  display: block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+
+}
+
+.aboutImage {
+  max-height: 250px;
+  border-radius: 5px;
+}
 
 @keyframes fade {
   0%, 100% {
@@ -27,6 +58,13 @@
   }
   50% {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    font-size: 2rem;
+    margin: 10px;
   }
 }
 
