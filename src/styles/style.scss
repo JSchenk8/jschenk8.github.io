@@ -7,6 +7,32 @@
   background-size: cover;
 }
 
+.about-image {
+  background-image: url(../images/aboutImage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.picster-image {
+  background-image: url(../images/picster.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.parkpong-image {
+  background-image: url(../images/parkpong.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about-box {
+  background-color: rgba(255,255,255,0.9)
+}
 
 .fade {
   -webkit-transition: all 100ms linear;
@@ -18,6 +44,13 @@
     transition: all 100ms linear;
     transform: scale(1);  
     animation: fade 3s infinite;
+}
+
+#profile {
+  max-height: 500px;
+  margin: 20px;
+  border-radius: 5px;
+  // border: 3px solid darkblue;
 }
 
 .icon {
@@ -47,9 +80,18 @@
 
 }
 
-.aboutImage {
-  max-height: 250px;
-  border-radius: 5px;
+// .aboutImage {
+//   max-height: 250px;
+//   border-radius: 5px;
+// }
+
+.carouselDiv {
+  min-height: 600px;
+  width: 500px;
+}
+
+.carouselItem {
+  min-height: 500px;
 }
 
 @keyframes fade {
@@ -70,3 +112,4 @@
 
 
 @import "../../node_modules/bulma/bulma.sass";
+@import '../../node_modules/react-awesome-slider/dist/custom-animations/cube-animation.css';

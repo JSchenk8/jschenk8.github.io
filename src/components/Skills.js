@@ -8,7 +8,6 @@ export default function Skills() {
   return <div className="has-text-centered">
     <p className="sub-title">Technical Skills</p>
     <div className="columns">
-      <div className="column is-one-fifth"></div>
       <div className="column">
         <div className="columns is-mobile is-desktop">
           <div className="column">
@@ -47,25 +46,8 @@ export default function Skills() {
             <div className="iconDiv"><i className="icon devicon-webpack-plain"></i><p>Webpack</p></div>
           </div>
         </div>
-
-
-
-
-
-
-
       </div>
-      <div className="column is-one-fifth"></div>
     </div>
   </div>
-
-
-
-
-
 }
 
-<div className="columns">
-
-
-</div>

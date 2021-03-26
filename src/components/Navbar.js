@@ -5,7 +5,38 @@ import { useState } from 'react'
 export default function Navbar() {
 
   const [mobNav, updateMobNav] = useState(false)
-  
+
+  // return <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+  //   <div className="navbar-brand" id="navbarImage">
+  //     <a onClick={() => updateMobNav(!mobNav)} role="button" className={`navbar-burger ${mobNav ? 'is-active' : ''}`} >
+  //       <span aria-hidden="true" />
+  //       <span aria-hidden="true" />
+  //       <span aria-hidden="true" />
+  //     </a>
+  //   </div>
+  //   <div id="navbarBasicExample" className={`navbar-menu ${mobNav ? 'is-active' : ''}`}>
+  //     <div className="navbar-start">
+
+
+  //       <div className="navbar-item has-dropdown is-hoverable">
+
+  //         <div className="navbar-dropdown">
+  //           <hr className="navbar-divider" />
+  //         </div>
+  //       </div>
+  //     </div>
+  //     <div className="navbar-end">
+  //       <div className="navbar-item">
+  //         <div className="menu-item">
+  //           <a href="#about">About Me</a>
+  //           <a href="#projects">Projects</a>
+  //           <a href="#contact">Contact</a>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // </nav >
+
   return <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div className="navbar-brand" id="navbarImage">
       <a onClick={() => updateMobNav(!mobNav)} role="button" className={`navbar-burger ${mobNav ? 'is-active' : ''}`} >
@@ -26,16 +57,21 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-end">
-        <div className="navbar-item">
-          <div className="menu-item">
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <a className="navbar-item has-text-white" href="#about">About Me</a>
+        <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link has-text-white">Projects</a>
+          <div className="navbar-dropdown">
+            <a className="navbar-item" href="#picster">Picster</a>
+            <a className="navbar-item" href="#parkpong">Park Pong</a>
+            <a className="navbar-item" href="#filmfinder">Film Finder</a>
+            <a className="navbar-item" href="#zombiesweeper">ZombieSweeper</a>
           </div>
         </div>
+        <a className="navbar-item has-text-white" href="#contact">Contact Me</a>
       </div>
     </div>
   </nav >
+
 
 
 }
