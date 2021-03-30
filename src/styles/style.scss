@@ -30,6 +30,30 @@
   background-size: cover;
 }
 
+.filmfinder-image {
+  background-image: url(../images/filmfinder.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.zombiesweeper-image {
+  background-image: url(../images/zombiesweeper.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-image {
+  background-image: url(../images/contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #about-box {
   background-color: rgba(255,255,255,0.9)
 }
