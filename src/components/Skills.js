@@ -1,7 +1,4 @@
 import React from 'react'
-// import AwesomeSlider from 'react-awesome-slider'
-// // import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
-// import 'react-awesome-slider/dist/styles.css'
 
 export default function Skills() {
 
