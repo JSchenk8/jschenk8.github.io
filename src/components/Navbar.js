@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div className="navbar-brand" id="navbarImage">
-      <a onClick={() => updateMobNav(!mobNav)} role="button" className={`navbar-burger ${mobNav ? 'is-active' : ''}`} >
+      <a onClick={() => updateMobNav(!mobNav)} role="button" className={`navbar-burger has-text-white ${mobNav ? 'is-active' : ''}`} >
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
@@ -26,9 +26,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-end">
-        <a className="navbar-item has-text-white" href="#about">About Me</a>
+        <a className={`navbar-item ${!mobNav ? 'has-text-white' : ''}`} href="#about">About Me</a>
         <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link has-text-white">Projects</a>
+          <a className={`navbar-link ${!mobNav ? 'has-text-white' : ''}`}>Projects</a>
           <div className="navbar-dropdown">
             <a className="navbar-item" href="#picster">Picster</a>
             <a className="navbar-item" href="#parkpong">Park Pong</a>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <a className="navbar-item" href="#zombiesweeper">ZombieSweeper</a>
           </div>
         </div>
-        <a className="navbar-item has-text-white" href="#contact">Contact Me</a>
+        <a className={`navbar-item ${!mobNav ? 'has-text-white' : ''}`} href="#contact">Contact Me</a>
       </div>
     </div>
   </nav >

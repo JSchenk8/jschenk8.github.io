@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from './Skills'
 import headshot from '../images/headshot.jpg'
-import 'pure-react-carousel/dist/react-carousel.es.css'
+
 
 
 

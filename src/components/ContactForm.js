@@ -50,6 +50,7 @@ export default function ContactForm() {
       return
     } else if (!emailData.firstname || !emailData.lastname) {
       updateEmailErrors({ ...emailErrors, name: 'Please provide your full name' })
+      return
     }
     setLoading(true)
     emailjs.send(process.env.SERVICEID, process.env.FORMID, emailData, process.env.USERID)
@@ -79,7 +80,6 @@ export default function ContactForm() {
             value={emailData.firstname}
             onChange={handleChange}
             name={'firstname'} />
-          {emailErrors && <small className="has-text-primary">{emailErrors.name}</small>}
         </div>
       </div>
       <div className="field">
