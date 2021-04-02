@@ -24,7 +24,11 @@ export default function FilmFinder() {
           <div className="column">
             <div>
               <p className="title">Film Finder</p><br></br>
-              <p>Park Pong was a week long project built in the Mern Stack. If we keep adding content to this paragraph what happens</p>
+              <p>Film finder was the result of a 48 hour pair-programming hackathon and my first real foray into React.</p><br />
+              <p>Tasked with creating a react app integrating at least one third party API, my colleague and I chose to use the MovieDB API to create a movie search engine. Wanting to add to the user experience, we then integrated the New York Times Review API so that any films with a valid review would show users the review, and give them the option of navigating to the NYT website.</p><br />
+              <p>The website is based mostly around our search engine, which offers users the change to search by movie title or actor. Results are then shown and when an individual movie is chosen, users are also given a choice of twenty similar titles.</p><br />
+              <p>We used the project as an opportunity to practice some CSS animations, so the home page has a dynamic appearance and when searching through movies each movie grows when hovered over. </p><br />
+              <p>You can try the website below, or click onto my Github for the code and a readme.</p><br />
             </div>
             <div className="has-text-centered">
               <a href="https://github.com/JSchenk8/project-2" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>

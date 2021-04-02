@@ -18,19 +18,21 @@ export default function AboutMe() {
         <div className="columns">
           <div className="column">
 
-            <p className="sub-title">About Me</p><br></br>
+            <p className="sub-title">About Me</p><br />
             <p>
               I am a junior software engineer with business experience and a first class honours degree in mechanical engineering. Alongside my degree, I continued to run my own successful photography business and technical advice service in the climbing industry.
-            </p><br></br>
+            </p><br />
             <p>
               At university, I trained in Matlab and completed a thesis on the use of Software for Computer Vision. I decided to pursue a career in Software Engineering and enrolled in an immersive course at General Assembly.
-            </p><br></br>
+            </p><br />
             <p>
               Trained in multiple coding languages and best practices I am looking to gain a role as a full stack developer. I am hard working, a quick learner and a great team player. I look forward to growing my experience and technical skills within a fast-paced environment.
-            </p><br></br>
-            <p>Outside of coding I maintain my skills as a professional photographer and enjoy going climbing and motorcycling</p>
-            <br></br>
-            <p>If you would like to get in touch, please <a href="#contact">contact me</a> below</p><br></br></div>
+            </p><br />
+            <p>I am currently working on some exciting side projects, including a Python facial recognition program built on a Raspberry Pi and a website to interactively display data from the Office for National Statistics, which I hope to add to this portfolio soon.</p><br />
+            <p>Outside of coding I love getting out with my camera, if you want to see my photography website please have a look <a href="https://www.josephschenkphotography.com" target="blank">here!</a></p>
+            <br />
+            <p>Otherwise I love climbing, especially getting out in the mountains of the alps. I also love travelling by motorcycle and am looking forward to getting out this autumn to explore more of Europe on two wheels. </p><br />
+            <p>If you would like to get in touch, please <a href="#contact">contact me</a> below</p><br /></div>
           <div className="column">
             <Skills />
           </div>

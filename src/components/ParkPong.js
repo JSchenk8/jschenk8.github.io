@@ -24,7 +24,14 @@ export default function ParkPong() {
           <div className="column">
             <div>
               <p className="title">Park Pong</p><br></br>
-              <p>Park Pong was a week long project built in the Mern Stack. If we keep adding content to this paragraph what happens</p>
+              
+              <p>Park Pong was a week long project built using the MERN stack, where I worked with a group of three others to create a crowd-sourced public ping pong table sharing app. </p><br />
+              <p>Users can view a map of ping pong tables free to use, check out events happening at different locations, and see the users registered on the page. </p><br />
+              <p>Then, if they want to, they can create their own profiles, add new locations and events, comment on other people’s events, click to attend them and comment on locations and write messages on other users message boards. </p><br />
+              <p>On the back end, I worked to create all the planning materials, before focusing on the code framework, such as seeding programs and middleware. I then took an interest in writing tests using Mocha and Chai, and made sure we had a complete test suite for the whole back end, which included twenty-nine CRUD operations across fourteen end points. </p><br />
+              <p>On the front end I created our register and login page, taking extra time to write error validation for each field to ensure a smooth user journey. I integrated the Cloudinary upload system so users can upload profile pictures. </p><br />
+              <p>I then oversaw the global styling of the page, giving it a universal look across all pages. It was styled using the Bulma framework and editing SCSS variables along with some CSS.</p><br />
+              <p>Please take a look at the website or the code below!</p><br />
             </div>
             <div className="has-text-centered">
               <a href="https://github.com/JSchenk8/project-3" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>

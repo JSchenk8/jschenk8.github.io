@@ -24,10 +24,12 @@ export default function Picster() {
           <div className="column">
             <div>
               <p className="title">Picster</p><br />
-              <p>Picster is a responsively designed photo editing and sharing app created as a week long group project.</p><br />
-              <p>As a group we worked to create a register and login page, user profiles, a photo editor for desktop and a responsive explore page with custom CSS to tile photos of different sizes.</p><br />
-              <p>I worked hard on the back end, built in Python with Flask, to create a many to many relationship between users, allowing them to follow each other.</p><br />
-              <p>On the front end, I </p>
+              <p>Picster is a responsively designed photo editing and sharing app created as a week long group project. It was the final project for General Assembly's Software Engineering Immersive, and built using Python and Flask alongside a React front end.</p><br />
+              <p>As a group of three, we utilised project management tools to plan and implement our project in the short time frame, plotting out a user experience which included registration, login, photo editing, uploading, and sharing. Furthermore, we enabled users to like photos, comment on photos and follow other users. </p><br />
+              <p>I worked hard on the back end to create a many-to-many relationship between users, allowing them to follow each other. I also utilised test-driven-development and the pytest library to build a test suite for the back end.</p><br />
+              <p>On the front end, I integrated a third party library made by ToastUI which enables users on desktop to edit their photographs before uploading them to the site. </p><br />
+              <p>I also wrote custom CSS to responsively tile uploaded photos regardless of aspect ratio, giving the explore page and user profiles a dynamic feel. </p><br />
+              <p>Feel free to check out the site or the code below! </p><br />
             </div>
             <div className="has-text-centered">
               <a href="https://github.com/JSchenk8/project-4" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>

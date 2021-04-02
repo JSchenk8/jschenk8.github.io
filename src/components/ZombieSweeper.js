@@ -24,8 +24,14 @@ export default function ZombieSweeper() {
           </div>
           <div className="column">
             <div>
-              <p className="title">Film Finder</p><br></br>
-              <p>Park Pong was a week long project built in the Mern Stack. If we keep adding content to this paragraph what happens</p>
+              <p className="title">ZombieSweeper</p><br></br>
+              <p>The very first project we were set at General Assembly was to build a vanilla JavaScript grid based game in one week. I chose Minesweeper as an opportunity to practice my recursive functions, knowing this would be the main challenge.</p><br />
+              <p>I was able to create the basic functionality including a semi-intelligent bomb placement, which, when the player first clicked, ensured that the space they clicked would always be empty. This would then trigger the recursive function which revealed all the empty squares nearby.</p><br />
+              <p>Wanting to add to the challenge, I created three levels of difficulty with different sized grids and numbers of bombs. </p><br />
+              <p>I added in a local storage function to keep a user’s best time per level until their session ended. I also created modals for the rules and for when users win or lose.</p><br />
+              <p>Then, I worked to create a mobile friendly version. Without the possibility to have right and left click on touch screen, I implemented mobile-only buttons which gave the user a choice between right or left click each time they touched the grid.</p><br />
+              <p>Finally, I wrote CSS to style the page and chose to give it a zombie theme! So the bombs became zombies, the flags axes, and when the user loses a blood splatter appears on every dangerous square. </p><br />
+              <p>It was a lot of fun to build and if you want to have a go, click below! Or check our my code on GitHub.</p><br />
             </div>
             <div className="has-text-centered">
               <a href="https://github.com/JSchenk8/GAProject-1" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>
