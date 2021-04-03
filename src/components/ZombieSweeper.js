@@ -6,11 +6,12 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
+import { IconContext } from 'react-icons/lib'
 
 export default function ZombieSweeper() {
   return <section className="hero is-fullheight zombiesweeper-image" id="zombiesweeper">
     <div className="hero-body is-justify-content-center">
-      <div className="box">
+      <div className="box" id="project-box">
         <div className="columns">
           <div className="column carouselDiv has-text-centered">
             <div className="">
@@ -34,8 +35,10 @@ export default function ZombieSweeper() {
               <p>It was a lot of fun to build and if you want to have a go, click below! Or check our my code on GitHub.</p><br />
             </div>
             <div className="has-text-centered">
-              <a href="https://github.com/JSchenk8/GAProject-1" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>
-              <a href="https://jschenk8.github.io/GAProject-1/" target="blank"><button className="button m-2"><GoLink /></button></a>
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/GAProject-1" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://jschenk8.github.io/GAProject-1/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
             </div>
           </div>
         </div>

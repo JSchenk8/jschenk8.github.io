@@ -7,8 +7,8 @@ export default function LandingPage() {
     <Navbar />
     <div className="hero-body">
       <div className="container has-text-centered">
-        <p className="title has-text-white">Joseph Schenk</p>
-        <p className="subTitle has-text-white">Software Engineer</p>
+        <p className="title has-text-white is-size-1">Joseph Schenk</p>
+        <p className="subtitle has-text-white is-size-4">Software Engineer</p>
 
       </div>
     </div>

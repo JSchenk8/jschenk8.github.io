@@ -3,7 +3,7 @@ import React from 'react'
 export default function Skills() {
 
   return <div className="has-text-centered">
-    <p className="sub-title">Technical Skills</p>
+    <p className="subtitle">Technical Skills</p>
     <div className="columns">
       <div className="column">
         <div className="columns is-mobile is-desktop">

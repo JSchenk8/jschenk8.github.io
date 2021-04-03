@@ -5,11 +5,12 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
+import { IconContext } from 'react-icons/lib'
 
 export default function Picster() {
   return <section className="hero is-fullheight picster-image" id="picster">
     <div className="hero-body is-justify-content-center">
-      <div className="box">
+      <div className="box" id="project-box">
         <div className="columns">
           <div className="column carouselDiv has-text-centered">
             <div className="">
@@ -32,8 +33,10 @@ export default function Picster() {
               <p>Feel free to check out the site or the code below! </p><br />
             </div>
             <div className="has-text-centered">
-              <a href="https://github.com/JSchenk8/project-4" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>
-              <a href="https://picster-gaproject.herokuapp.com/" target="blank"><button className="button m-2"><GoLink /></button></a>
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/project-4" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://picster-gaproject.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
             </div>
           </div>
         </div>

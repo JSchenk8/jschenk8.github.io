@@ -5,11 +5,12 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
+import { IconContext } from 'react-icons/lib'
 
 export default function ParkPong() {
   return <section className="hero is-fullheight parkpong-image" id="parkpong">
     <div className="hero-body is-justify-content-center">
-      <div className="box">
+      <div className="box" id="project-box">
         <div className="columns">
           <div className="column carouselDiv has-text-centered">
             <div className="">
@@ -24,7 +25,7 @@ export default function ParkPong() {
           <div className="column">
             <div>
               <p className="title">Park Pong</p><br></br>
-              
+
               <p>Park Pong was a week long project built using the MERN stack, where I worked with a group of three others to create a crowd-sourced public ping pong table sharing app. </p><br />
               <p>Users can view a map of ping pong tables free to use, check out events happening at different locations, and see the users registered on the page. </p><br />
               <p>Then, if they want to, they can create their own profiles, add new locations and events, comment on other people’s events, click to attend them and comment on locations and write messages on other users message boards. </p><br />
@@ -34,8 +35,10 @@ export default function ParkPong() {
               <p>Please take a look at the website or the code below!</p><br />
             </div>
             <div className="has-text-centered">
-              <a href="https://github.com/JSchenk8/project-3" target="blank"><button className="button m-2"><DiGithubBadge /></button></a>
-              <a href="https://park-pong.herokuapp.com/" target="blank"><button className="button m-2"><GoLink /></button></a>
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/project-3" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://park-pong.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
             </div>
           </div>
         </div>
