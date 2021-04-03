@@ -7,7 +7,7 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 import zombiesweeperHome from '../images/zombiesweeperHome.png'
 import zombiesweeperMobile from '../images/zombiesweeperMobile.png'
 import zombiesweeperRules from '../images/zombiesweeperRules.png'
-import zombiesweeperLost from '../zombiesweeperLost.png'
+import zombiesweeperLost from '../images/zombiesweeperLost.png'
 
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
