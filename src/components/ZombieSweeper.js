@@ -4,6 +4,11 @@ import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
+import zombiesweeperHome from '../images/zombiesweeperHome.png'
+import zombiesweeperMobile from '../images/zombiesweeperMobile.png'
+import zombiesweeperRules from '../images/zombiesweeperRules.png'
+import zombiesweeperLost from '../zombiesweeperLost.png'
+
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
 import { IconContext } from 'react-icons/lib'
@@ -16,10 +21,10 @@ export default function ZombieSweeper() {
           <div className="column carouselDiv has-text-centered">
             <div className="">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>
-                <div className="carouselItem" data-src="../images/zombiesweeperHome.png" />
-                <div className="carouselItem" data-src="../images/zombiesweeperMobile.png" />
-                <div className="carouselItem" data-src="../images/zombiesweeperRules.png" />
-                <div className="carouselItem" data-src="../images/zombiesweeperLost.png" />
+                <div className="carouselItem" data-src={zombiesweeperHome} />
+                <div className="carouselItem" data-src={zombiesweeperMobile} />
+                <div className="carouselItem" data-src={zombiesweeperRules} />
+                <div className="carouselItem" data-src={zombiesweeperLost} />
               </AwesomeSlider>
             </div>
           </div>

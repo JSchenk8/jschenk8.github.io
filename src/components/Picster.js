@@ -2,6 +2,10 @@ import React from 'react'
 
 import AwesomeSlider from 'react-awesome-slider'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
+import picsterHome2 from '../images/picsterHome2.png'
+import picsterExplore from '../images/picsterExplore.png'
+import picsterUpload from '../images/picsterUpload.png'
+import picsterComment from '../images/picsterComment.png'
 
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
@@ -15,10 +19,10 @@ export default function Picster() {
           <div className="column carouselDiv has-text-centered">
             <div className="has-text-centered">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>
-                <div className="carouselItem" data-src="../images/picsterHome2.png" />
-                <div className="carouselItem" data-src="../images/picsterExplore.png" />
-                <div className="carouselItem" data-src="../images/picsterUpload.png" />
-                <div className="carouselItem" data-src="../images/picsterComment.png" />
+                <div className="carouselItem" data-src={picsterHome2} />
+                <div className="carouselItem" data-src={picsterExplore} />
+                <div className="carouselItem" data-src={picsterUpload} />
+                <div className="carouselItem" data-src={picsterComment} />
               </AwesomeSlider>
             </div>
           </div>

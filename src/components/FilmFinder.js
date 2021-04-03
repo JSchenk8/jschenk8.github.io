@@ -3,6 +3,11 @@ import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
+import filmfinderHome from '../images/filmfinderHome.png'
+import filmfinderSearch from '../images/filmfinderSearch.png'
+import filmfinderResult from '../images/filmfinderResult.png'
+import filmfinderSimilar from '../images/filmfinderSimilar.png'
+
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
 import { IconContext } from 'react-icons/lib'
@@ -15,10 +20,10 @@ export default function FilmFinder() {
           <div className="column carouselDiv has-text-centered">
             <div className="">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>
-                <div className="carouselItem" data-src="../images/filmfinderHome.png" />
-                <div className="carouselItem" data-src="../images/filmfinderSearch.png" />
-                <div className="carouselItem" data-src="../images/filmfinderResult.png" />
-                <div className="carouselItem" data-src="../images/filmfinderSimilar.png" />
+                <div className="carouselItem" data-src={filmfinderHome} />
+                <div className="carouselItem" data-src={filmfinderSearch} />
+                <div className="carouselItem" data-src={filmfinderResult} />
+                <div className="carouselItem" data-src={filmfinderSimilar} />
               </AwesomeSlider>
             </div>
           </div>

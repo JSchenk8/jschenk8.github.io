@@ -3,6 +3,11 @@ import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
+import parkpongHome from '../images/parkpongHome.png'
+import parkpongMap from '../images/parkpongMap.png'
+import parkpongEvents from '../images/parkpongEvents.png'
+import parkpongLogin from '../images/parkpongLogin.png'
+
 import { DiGithubBadge } from 'react-icons/di'
 import { GoLink } from 'react-icons/go'
 import { IconContext } from 'react-icons/lib'
@@ -15,10 +20,10 @@ export default function ParkPong() {
           <div className="column carouselDiv has-text-centered">
             <div className="">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>
-                <div className="carouselItem" data-src="../images/parkpongHome.png" />
-                <div className="carouselItem" data-src="../images/parkpongMap.png" />
-                <div className="carouselItem" data-src="../images/parkpongEvents.png" />
-                <div className="carouselItem" data-src="../images/parkpongLogin.png" />
+                <div className="carouselItem" data-src={parkpongHome} />
+                <div className="carouselItem" data-src={parkpongMap} />
+                <div className="carouselItem" data-src={parkpongEvents} />
+                <div className="carouselItem" data-src={parkpongLogin} />
               </AwesomeSlider>
             </div>
           </div>
