@@ -15,7 +15,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="columns">
+        <div className="columns is-desktop">
           <div className="column">
 
             <p className="subtitle">About Me</p>

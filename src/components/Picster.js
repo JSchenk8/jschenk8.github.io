@@ -11,9 +11,9 @@ export default function Picster() {
   return <section className="hero is-fullheight picster-image" id="picster">
     <div className="hero-body is-justify-content-center">
       <div className="box" id="project-box">
-        <div className="columns">
+        <div className="columns is-desktop">
           <div className="column carouselDiv has-text-centered">
-            <div className="">
+            <div className="has-text-centered">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>
                 <div className="carouselItem" data-src="../images/picsterHome2.png" />
                 <div className="carouselItem" data-src="../images/picsterExplore.png" />

@@ -11,7 +11,7 @@ export default function ParkPong() {
   return <section className="hero is-fullheight parkpong-image" id="parkpong">
     <div className="hero-body is-justify-content-center">
       <div className="box" id="project-box">
-        <div className="columns">
+        <div className="columns is-desktop">
           <div className="column carouselDiv has-text-centered">
             <div className="">
               <AwesomeSlider animation="cubeAnimation" cssModule={AwesomeSliderStyles}>

@@ -23,13 +23,14 @@ export default function Contact() {
   return <section className="hero is-fullheight contact-image" id="contact">
     <div className="hero-body is-justify-content-center">
       <div className="box" id="project-box">
-        <div className="columns">
+        <div className="columns is-desktop">
+          <p className="title is-hidden-desktop">Get in touch</p><br />
           <div className="column">
             <ContactForm />
           </div>
           <div className="column">
             <div>
-              <p className="title">Get in touch</p><br></br>
+              <p className="title is-hidden-touch">Get in touch</p><br />
               <p>Thanks for checking out my website!</p><br />
               <p>I would absolutely love to hear from you, please fill in the form or if you prefer, grab my email, LinkedIn or Github below!</p><br />
             </div>
