@@ -27,6 +27,13 @@ export default function ZombieSweeper() {
                 <div className="carouselItem" data-src={zombiesweeperLost} />
               </AwesomeSlider>
             </div>
+            <div className="has-text-centered mt-6">
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/GAProject-1" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://jschenk8.github.io/GAProject-1/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
+              <p>Feel free to check out the code or the full site</p><br />
+            </div>
           </div>
           <div className="column">
             <div>
@@ -37,14 +44,9 @@ export default function ZombieSweeper() {
               <p>I added in a local storage function to keep a user’s best time per level until their session ended. I also created modals for the rules and for when users win or lose.</p><br />
               <p>Then, I worked to create a mobile friendly version. Without the possibility to have right and left click on touch screen, I implemented mobile-only buttons which gave the user a choice between right or left click each time they touched the grid.</p><br />
               <p>Finally, I wrote CSS to style the page and chose to give it a zombie theme! So the bombs became zombies, the flags axes, and when the user loses a blood splatter appears on every dangerous square. </p><br />
-              <p>It was a lot of fun to build and if you want to have a go, click below! Or check our my code on GitHub.</p><br />
+              <p>This project was built in vanilla JavaScript, with HTML and CSS.</p><br />
             </div>
-            <div className="has-text-centered">
-              <IconContext.Provider value={{ color: 'darkblue' }}>
-                <a href="https://github.com/JSchenk8/GAProject-1" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
-                <a href="https://jschenk8.github.io/GAProject-1/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
-              </IconContext.Provider>
-            </div>
+            
           </div>
         </div>
       </div>

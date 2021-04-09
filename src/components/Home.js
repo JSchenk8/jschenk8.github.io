@@ -13,11 +13,17 @@ export default function Home() {
 
   return <div>
     <LandingPage />
+    <div className="level"></div>
     <AboutMe />
+    <div className="level"></div>
     <Picster />
+    <div className="level"></div>
     <ParkPong />
+    <div className="level"></div>
     <FilmFinder />
+    <div className="level"></div>
     <ZombieSweeper />
+    <div className="level"></div>
     <Contact />
   </div>
 }

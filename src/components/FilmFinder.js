@@ -26,6 +26,13 @@ export default function FilmFinder() {
                 <div className="carouselItem" data-src={filmfinderSimilar} />
               </AwesomeSlider>
             </div>
+            <div className="has-text-centered mt-6">
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/project-2" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://jschenk8.github.io/project-2/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
+              <p>Feel free to check out the code or the full site</p><br />
+            </div>
           </div>
           <div className="column">
             <div>
@@ -34,14 +41,9 @@ export default function FilmFinder() {
               <p>Tasked with creating a react app integrating at least one third party API, my colleague and I chose to use the MovieDB API to create a movie search engine. Wanting to add to the user experience, we then integrated the New York Times Review API so that any films with a valid review would show users the review, and give them the option of navigating to the NYT website.</p><br />
               <p>The website is based mostly around our search engine, which offers users the change to search by movie title or actor. Results are then shown and when an individual movie is chosen, users are also given a choice of twenty similar titles.</p><br />
               <p>We used the project as an opportunity to practice some CSS animations, so the home page has a dynamic appearance and when searching through movies each movie grows when hovered over. </p><br />
-              <p>You can try the website below, or click onto my Github for the code and a readme.</p><br />
+              <p>This project was built using React, HTML and SCSS using the Bulma Framework. It also integrates two third party APIs.</p><br />
             </div>
-            <div className="has-text-centered">
-              <IconContext.Provider value={{ color: 'darkblue' }}>
-                <a href="https://github.com/JSchenk8/project-2" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
-                <a href="https://jschenk8.github.io/project-2/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
-              </IconContext.Provider>
-            </div>
+            
           </div>
         </div>
       </div>

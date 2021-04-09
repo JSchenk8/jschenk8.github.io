@@ -25,6 +25,13 @@ export default function Picster() {
                 <div className="carouselItem" data-src={picsterComment} />
               </AwesomeSlider>
             </div>
+            <div className="has-text-centered mt-6">
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/project-4" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://picster-gaproject.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
+              <p>Feel free to check out the code or the full site</p><br />
+            </div>
           </div>
           <div className="column">
             <div>
@@ -34,14 +41,9 @@ export default function Picster() {
               <p>I worked hard on the back end to create a many-to-many relationship between users, allowing them to follow each other. I also utilised test-driven-development and the pytest library to build a test suite for the back end.</p><br />
               <p>On the front end, I integrated a third party library made by ToastUI which enables users on desktop to edit their photographs before uploading them to the site. </p><br />
               <p>I also wrote custom CSS to responsively tile uploaded photos regardless of aspect ratio, giving the explore page and user profiles a dynamic feel. </p><br />
-              <p>Feel free to check out the site or the code below! </p><br />
+              <p>This project was built using Python and Flask on the back end, tested with Pytest, and has a front end built in React, with HTML and SCSS and styled with a combination of custom CSS and the Bulma framework. It integrates a front end JavaScript library called ToastUI and has authentication using bcrypt and JSON Web Tokens.</p><br />
             </div>
-            <div className="has-text-centered">
-              <IconContext.Provider value={{ color: 'darkblue' }}>
-                <a href="https://github.com/JSchenk8/project-4" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
-                <a href="https://picster-gaproject.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
-              </IconContext.Provider>
-            </div>
+            
           </div>
         </div>
       </div>

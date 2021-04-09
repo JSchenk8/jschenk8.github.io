@@ -26,6 +26,13 @@ export default function ParkPong() {
                 <div className="carouselItem" data-src={parkpongLogin} />
               </AwesomeSlider>
             </div>
+            <div className="has-text-centered mt-6">
+              <IconContext.Provider value={{ color: 'darkblue' }}>
+                <a href="https://github.com/JSchenk8/project-3" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
+                <a href="https://park-pong.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
+              </IconContext.Provider>
+              <p>Feel free to check out the code or the full site</p><br />
+            </div>
           </div>
           <div className="column">
             <div>
@@ -37,14 +44,9 @@ export default function ParkPong() {
               <p>On the back end, I worked to create all the planning materials, before focusing on the code framework, such as seeding programs and middleware. I then took an interest in writing tests using Mocha and Chai, and made sure we had a complete test suite for the whole back end, which included twenty-nine CRUD operations across fourteen end points. </p><br />
               <p>On the front end I created our register and login page, taking extra time to write error validation for each field to ensure a smooth user journey. I integrated the Cloudinary upload system so users can upload profile pictures. </p><br />
               <p>I then oversaw the global styling of the page, giving it a universal look across all pages. It was styled using the Bulma framework and editing SCSS variables along with some CSS.</p><br />
-              <p>Please take a look at the website or the code below!</p><br />
+              <p>This project was built using JavaScript and MongoDB on the back end, tested using Mocha and Chai nad has a front end built using React, HTML and SCSS, styled with the Bulma framework. It also integrates a javascript Map library, NodeMailer emailing system and authentication using bcrypt and JSON Web Tokens.</p>
             </div>
-            <div className="has-text-centered">
-              <IconContext.Provider value={{ color: 'darkblue' }}>
-                <a href="https://github.com/JSchenk8/project-3" target="blank"><button className="button m-2 is-large"><DiGithubBadge /></button></a>
-                <a href="https://park-pong.herokuapp.com/" target="blank"><button className="button m-2 is-large"><GoLink /></button></a>
-              </IconContext.Provider>
-            </div>
+            
           </div>
         </div>
       </div>
