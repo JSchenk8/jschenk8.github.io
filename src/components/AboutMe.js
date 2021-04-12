@@ -16,9 +16,9 @@ export default function AboutMe() {
         </div>
 
         <div className="columns is-desktop">
-          <div className="column">
+          <div className="column has-text-left">
 
-            <p className="subtitle">About Me</p>
+            <p className="subtitle has-text-centered">About Me</p>
             <p className="mt-6">
               I am a junior software engineer with business experience and a first class honours degree in mechanical engineering. Alongside my degree, I continued to run my own successful photography business and technical advice service in the climbing industry.
             </p><br />
