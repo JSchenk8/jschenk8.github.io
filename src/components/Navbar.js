@@ -30,6 +30,7 @@ export default function Navbar() {
         <div className="navbar-item has-dropdown is-hoverable">
           <a className={`navbar-link ${!mobNav ? 'has-text-white' : ''}`}>Projects</a>
           <div className="navbar-dropdown">
+            <a className="navbar-item" href="#rigaud">Rigaud</a>
             <a className="navbar-item" href="#picster">Picster</a>
             <a className="navbar-item" href="#parkpong">Park Pong</a>
             <a className="navbar-item" href="#filmfinder">Film Finder</a>

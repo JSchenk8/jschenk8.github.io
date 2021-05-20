@@ -28,7 +28,7 @@ export default function AboutMe() {
             <p>
               Trained in multiple coding languages and best practices I am looking to gain a role as a full stack developer. I am hard working, a quick learner and a great team player. I look forward to growing my experience and technical skills within a fast-paced environment.
             </p><br />
-            <p>I am currently working on some exciting side projects, including a Python facial recognition program built on a Raspberry Pi and a website to interactively display data from the Office for National Statistics, which I hope to add to this portfolio soon.</p><br />
+            <p>Since finishing the course I have built an e-commerce website for Rigaud Candles, which you can see <a href="#rigaud">below.</a> I am now working on some exciting side projects including a Python facial recognition program built on a Raspberry Pi and a full stack recycling application, which I hope to add to this portfolio soon.</p><br />
             <p>Outside of coding I love, climbing, travelling by motorcycle and getting out with my camera. All the photos you see here on my website were taken by me, and if you want to see my photography website please have a look <a href="https://www.josephschenkphotography.com" target="blank">here!</a></p>
             <br />
             <p>If you would like to get in touch, please <a href="#contact">contact me</a> below</p><br /></div>

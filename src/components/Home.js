@@ -1,6 +1,7 @@
 import React from 'react'
 import LandingPage from './LandingPage'
 import AboutMe from './AboutMe'
+import Rigaud from './Rigaud'
 import Picster from './Picster'
 import ParkPong from './ParkPong'
 import FilmFinder from './FilmFinder'
@@ -15,6 +16,8 @@ export default function Home() {
     <LandingPage />
     <div className="level"></div>
     <AboutMe />
+    <div className="level"></div>
+    <Rigaud />
     <div className="level"></div>
     <Picster />
     <div className="level"></div>
