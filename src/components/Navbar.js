@@ -6,7 +6,7 @@ export default function Navbar() {
 
   const [mobNav, updateMobNav] = useState(false)
 
-  return <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+  return <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="nav-background">
     <div className="navbar-brand" id="navbarImage">
       <a onClick={() => updateMobNav(!mobNav)} role="button" className={`navbar-burger has-text-white ${mobNav ? 'is-active' : ''}`} >
         <span aria-hidden="true" />

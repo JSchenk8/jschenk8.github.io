@@ -3,10 +3,10 @@ import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
-import rigaudHome from '../images/rigaudHome3.png'
-import rigaudCatalog from '../images/rigaudCatalog.png'
-import rigaudCypres from '../images/rigaudCypres.png'
-import rigaudCart from '../images/rigaudCart.png'
+import rigaudHome from '../images/rigaudHome3.jpg'
+import rigaudCatalog from '../images/rigaudCatalog.jpg'
+import rigaudCypres from '../images/rigaudCypres.jpg'
+import rigaudCart from '../images/rigaudCart.jpg'
 
 
 // import { DiGithubBadge } from 'react-icons/di'
