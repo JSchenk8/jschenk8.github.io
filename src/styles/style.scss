@@ -2,10 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-$primary: darkblue;
+// $primary: darkblue;
+$primary: rgba(1,1,1,0);
 $family-sans-serif: 'Montserrat', sans-serif;
+$button-border-color: white;
 
+.button {
+    border-color: none !important;
+    box-shadow: none !important;
+}
 
+.text-holder {
+  color: rgba(0,0,0,0)
+}
 
 .landing-image {
   background-image: url(../images/LandingImage.jpg);
@@ -15,143 +24,8 @@ $family-sans-serif: 'Montserrat', sans-serif;
   background-size: cover;
 }
 
-.about-image {
-  background-image: url(../images/aboutImage.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.rigaud-image{
-  background-image: url(../images/rigaud.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.picster-image {
-  background-image: url(../images/picster.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.parkpong-image {
-  background-image: url(../images/parkpong.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.filmfinder-image {
-  background-image: url(../images/filmfinder.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.zombiesweeper-image {
-  background-image: url(../images/DSC_7197.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.contact-image {
-  background-image: url(../images/contact.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-#about-box {
-  background-color: rgba(255,255,255,1)
-}
-
-#project-box {
-  background-color: rgba(255,255,255,1);
-}
-
-.fade {
-  -webkit-transition: all 100ms linear;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 100ms linear;
-    -ms-transform: scale(1); 
-    -moz-transition: all 100ms linear;
-    -moz-transform: scale(1);
-    transition: all 100ms linear;
-    transform: scale(1);  
-    animation: fade 3s infinite;
-}
-
-#profile {
-  max-height: 400px;
-  margin: 20px;
-  border-radius: 5px;
-  // border: 3px solid darkblue;
-}
-
-.icon {
-  font-size: 4rem;
-  margin: 30px;
-  color: darkblue;
-}
-
-
-.iconDiv p {
-  display: none;
-}
-
-.iconDiv:hover {
-  background-color: rgba(0,0,0,0.8);
-  position: relative;
-  border-radius: 5px;
-}
-
-.iconDiv:hover p {
-  display: block;
-  color: white;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-
-}
-
-.carouselDiv {
-  min-height: 600px;
-  width: 500px;
-  margin: 0 auto;
-}
-
-.carouselItem {
-  min-height: 500px;
-}
-
-#nav-background{
-  background-color: rgba(0,0,0,0.2);
-}
-
-@keyframes fade {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .icon {
-    font-size: 2rem;
-    margin: 10px;
-  }
+#modal-background{
+  background-color: rgba(0,0,0,0.1);
 }
 
 
