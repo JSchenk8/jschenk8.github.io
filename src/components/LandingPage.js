@@ -14,8 +14,10 @@ export default function LandingPage() {
     updateCopied(true)
   }
 
-  return <section className="landing-page">
-    <div className="home-page-box">
+  return <section>
+    <section className="landing-page">
+    <section className="home-page-box full-page-hero">
+      <div className="">
       <div className="profile-flex-box">
         <div className="profile-text">
         <h1>Joseph Schenk</h1>
@@ -23,12 +25,6 @@ export default function LandingPage() {
         </div>
         <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
     </div>
-
-    {/* <div className="hero-body is-flex-direction-column"  id="modal-background"> */}
-      {/* <div className="container has-text-centered is-flex is-flex-direction-column is-justify-content-center"> */}
-        {/* <p className="title has-text-white is-size-1">Joseph Schenk Photography</p> */}
-        {/* <p className="subtitle has-text-white is-size-4">Coming soon...</p> */}
-      {/* </div> */}
       <div className="icon-flex-box">
       <div className="profile-icons">
               <IconContext.Provider value={{ color: 'black' }}>
@@ -39,10 +35,36 @@ export default function LandingPage() {
       <div>{copied && <small className="copied-text">Email copied to clipboard</small>}</div>
 
       </div>
-      {/* <div>Scroll to enter</div> */}
+      </div>
 
-    {/* </div> */}
+
+      {/* second page */}
+      <div className="first-page">
+      <div>Hello world</div>
+      <div className="home-page-box">
+      <div className="profile-flex-box">
+        <div className="profile-text">
+        <h1>Joseph Schenk</h1>
+        <h3>Leader, Software Engineer, Consultant, Communicator</h3>
+        </div>
+        <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
     </div>
+      <div className="icon-flex-box">
+      <div className="profile-icons">
+              <IconContext.Provider value={{ color: 'black' }}>
+                <button onClick={copyEmail} className="button m-0 is-medium is-primary"><HiOutlineMail /></button>
+                <a href="https://www.linkedin.com/in/joseph-schenk/" target="blank"><button className="button m-0 is-medium is-primary"><FaLinkedin /></button></a>
+              </IconContext.Provider>
+      </div>
+      <div>{copied && <small className="copied-text">Email copied to clipboard</small>}</div>
+
+      </div>
+      </div>
+      </div>
+
+    </section>
+
     {/* <FaAngleDown className="scroll-icon" /> */}
+  </section>
   </section>
 }

@@ -17,8 +17,19 @@ $button-border-color: white;
   align-items: center;
 }
 
-.home-page-box {
+.full-page-hero {
+  border-radius: 5px;
+  height: 90vh;
+  display: flex;
+  width: 90vw;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+}
+
+.home-page-box {
   color: white;
   display: flex;
   flex-direction: column;
@@ -28,6 +39,7 @@ $button-border-color: white;
   justify-content: space-between;
   min-height: 95vh;
   min-width: 95vw;
+  align-items: center;
 }
 
 .profile-flex-box {
