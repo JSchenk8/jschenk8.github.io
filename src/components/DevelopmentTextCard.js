@@ -8,9 +8,10 @@ export default function ProfileCard() {
          */}
         <h1>Software Engineering</h1>
         <p className="top-margin-20">
-          Having made the decision to requalify as a Software Developer I enrolled in a three month
-          bootcamp in December of 2020. This was the first step into the world of full-stack
-          development.
+          Having studied Mechanical Engineering and written a thesis paper on computer vision in
+          Matlab, I made the decision to requalify as a Software Developer I enrolled in a three
+          month bootcamp in December of 2020. This was the first step into the world of full-stack
+          web development.
         </p>
         <p className="top-margin-20">
           Looking for a role where I could take my prior experience and skills and build on them

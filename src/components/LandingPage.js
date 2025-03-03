@@ -5,6 +5,7 @@ import LeadershipTextWrapper from './LeadershipTextWrapper'
 import LeadershipPhotoCard from './LeadershipPhotoCard'
 import DevelopmentPhotoCard from './DevelopmentPhotoCard'
 import DevelopmentTextWrapper from './DevelopmentTextWrapper'
+import DevelopmentIcons from './DevelopmentIcons'
 import {FaArrowDown} from 'react-icons/fa'
 
 export default function LandingPage() {
@@ -44,6 +45,9 @@ export default function LandingPage() {
           <div className="floating-card-development__half-right forty-width">
             <DevelopmentPhotoCard />
           </div>
+        </div>
+        <div className="development-icons">
+          <DevelopmentIcons />
         </div>
         <div className="scroll-icon">
           <FaArrowDown />
