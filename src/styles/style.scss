@@ -7,11 +7,11 @@ $primary: rgba(1,1,1,0);
 $family-sans-serif: 'Montserrat', sans-serif;
 $button-border-color: white;
 
-.top-margin-20 {
+.margin-top-20 {
   margin-top: 20px;
 }
 
-.top-margin-30 {
+.margin-top-30 {
   margin-top: 30px;
 }
 
@@ -202,16 +202,21 @@ li {
 }
 
 .profile-text {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  // align-items: center;
+}
+
+.profile-text > h1, h3 {
   font-weight: bold;
   color: black;
   display: flex;
   flex-direction: column;
   padding: 25px;
+  align-items: center;
 }
 
-.profile-text h1 {
-  font-size: 3em;
-}
 
 .icon-flex-box {
   display: flex;
