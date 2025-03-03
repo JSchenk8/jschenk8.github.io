@@ -1,70 +1,54 @@
 import React from 'react'
-import { useState } from 'react'
-import { HiOutlineMail } from 'react-icons/hi'
-import { IconContext } from 'react-icons/lib'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import profilePhoto from '../images/joseph-2024.jpg'
-import { FaAngleDown } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import ProfileCard from './ProfileCard'
+import ClickBoxes from './ClickBoxes'
+import LeadershipTextWrapper from './LeadershipTextWrapper'
+import LeadershipPhotoCard from './LeadershipPhotoCard'
+import DevelopmentPhotoCard from './DevelopmentPhotoCard'
+import DevelopmentTextWrapper from './DevelopmentTextWrapper'
+import {FaArrowDown} from 'react-icons/fa'
 
 export default function LandingPage() {
-  const [copied, updateCopied] = useState(false)
-  function copyEmail() {
-    navigator.clipboard.writeText('jcschenk8@gmail.com')
-    updateCopied(true)
-  }
+  console.log(ClickBoxes)
 
-  return <section>
+  return (
     <section className="landing-page">
-    <section className="home-page-box full-page-hero">
-      <div className="">
-      <div className="profile-flex-box">
-        <div className="profile-text">
-        <h1>Joseph Schenk</h1>
-        <h3>Leader, Software Engineer, Consultant, Communicator</h3>
+      <div className="hero-body-joe">
+        <div className="floating-card">
+          <ProfileCard />
+          <ClickBoxes />
         </div>
-        <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
-    </div>
-      <div className="icon-flex-box">
-      <div className="profile-icons">
-              <IconContext.Provider value={{ color: 'black' }}>
-                <button onClick={copyEmail} className="button m-0 is-medium is-primary"><HiOutlineMail /></button>
-                <a href="https://www.linkedin.com/in/joseph-schenk/" target="blank"><button className="button m-0 is-medium is-primary"><FaLinkedin /></button></a>
-              </IconContext.Provider>
-      </div>
-      <div>{copied && <small className="copied-text">Email copied to clipboard</small>}</div>
-
-      </div>
-      </div>
-
-
-      {/* second page */}
-      <div className="first-page">
-      <div>Hello world</div>
-      <div className="home-page-box">
-      <div className="profile-flex-box">
-        <div className="profile-text">
-        <h1>Joseph Schenk</h1>
-        <h3>Leader, Software Engineer, Consultant, Communicator</h3>
+        <div className="scroll-icon">
+          <FaArrowDown />
         </div>
-        <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
-    </div>
-      <div className="icon-flex-box">
-      <div className="profile-icons">
-              <IconContext.Provider value={{ color: 'black' }}>
-                <button onClick={copyEmail} className="button m-0 is-medium is-primary"><HiOutlineMail /></button>
-                <a href="https://www.linkedin.com/in/joseph-schenk/" target="blank"><button className="button m-0 is-medium is-primary"><FaLinkedin /></button></a>
-              </IconContext.Provider>
-      </div>
-      <div>{copied && <small className="copied-text">Email copied to clipboard</small>}</div>
-
-      </div>
-      </div>
       </div>
 
+      <div className="hero-body-joe">
+        <div className="split-cards">
+          <div className="floating-card-leadership__half-left forty-width">
+            <LeadershipPhotoCard />
+          </div>
+          <div className="floating-card-leadership__half-right">
+            <LeadershipTextWrapper />
+          </div>
+        </div>
+        <div className="scroll-icon">
+          <FaArrowDown />
+        </div>
+      </div>
+
+      <div className="hero-body-joe">
+        <div className="split-cards">
+          <div className="floating-card-development__half-left">
+            <DevelopmentTextWrapper />
+          </div>
+          <div className="floating-card-development__half-right forty-width">
+            <DevelopmentPhotoCard />
+          </div>
+        </div>
+        <div className="scroll-icon">
+          <FaArrowDown />
+        </div>
+      </div>
     </section>
-
-    {/* <FaAngleDown className="scroll-icon" /> */}
-  </section>
-  </section>
+  )
 }

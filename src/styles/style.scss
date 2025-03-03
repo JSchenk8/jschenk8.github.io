@@ -7,6 +7,31 @@ $primary: rgba(1,1,1,0);
 $family-sans-serif: 'Montserrat', sans-serif;
 $button-border-color: white;
 
+.top-margin-20 {
+  margin-top: 20px;
+}
+
+.top-margin-30 {
+  margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: bold !important; // bulma needs removing...
+}
+
+h1 {
+  font-size: 140% !important;
+}
+
+ul {
+  margin-left: 10px !important;
+}
+
+li {
+  padding: 10px !important;
+}
+
 .landing-page {
   background-image: (url(../images/LandingImage.jpg));
   background-size: cover;
@@ -15,6 +40,112 @@ $button-border-color: white;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.hero-body-joe {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+// .hero-body-joe * {
+//   max-height: 100%;
+// }
+
+// .hero {
+//   min-height: 100vh;
+// }
+
+.split-cards {
+  display: flex;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.split-cards * {
+  max-height: 100%;
+}
+
+.floating-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.floating-card-leadership {
+  &__half-right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-end;
+    overflow: scroll;
+    max-height: 100%;
+  }
+}
+
+.floating-card-development {
+  &__half-right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-start;
+  }
+}
+
+.floating-card-leadership {
+  &__half-left {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-start;
+  }
+}
+
+.floating-card-development {
+  &__half-left {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-end;
+    overflow: scroll;
+    max-height: 100%;
+  }
 }
 
 .full-page-hero {
@@ -48,6 +179,22 @@ $button-border-color: white;
   justify-content: space-around;
   align-items: center;
   flex-grow: 3;
+}
+
+.leadership-flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.development-flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .profile-text {
@@ -118,6 +265,34 @@ color: gray;
   // border: 2px solid white;
 }
 
+.leadership-photo {
+  // align-self: flex-end;
+  // background-image: (url(../images/joseph-2024.jpg));
+  // max-height: 400px;
+  // max-width: 500px;
+// width: 100px;
+  border-radius: 5px;
+  // border: 2px solid white;
+  height: auto;
+  width: auto;
+}
+
+.development-photo {
+  // align-self: flex-end;
+  // background-image: (url(../images/joseph-2024.jpg));
+  // max-height: 400px;
+  // max-width: 500px;
+// width: 100px;
+  border-radius: 5px;
+  // border: 2px solid white;
+  height: auto;
+  width: auto;
+}
+
+.leadership-flex-wrapper {
+  overflow: scroll;
+}
+
 .button {
     border-color: none !important;
     box-shadow: none !important;
@@ -139,6 +314,10 @@ color: gray;
   background-color: rgba(0,0,0,0.1);
 }
 
+.forty-width {
+  max-width: 40%;
+}
+
 
 @import "../../node_modules/bulma/bulma.sass";
-@import '../../node_modules/react-awesome-slider/dist/custom-animations/cube-animation.css';
+// @import '../../node_modules/react-awesome-slider/dist/custom-animations/cube-animation.css';
