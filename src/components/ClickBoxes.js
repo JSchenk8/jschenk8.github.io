@@ -32,8 +32,8 @@ export default function ClickBoxes(props) {
             </button>
           </a>
           <a
-            href="/../files/CVDec24.pdf"
-            download
+            href="https://js-cv-25.ezihost.net"
+            target="_blank"
           >
             <button className="button m-0 is-medium is-primary">
               <FaFileDownload />
