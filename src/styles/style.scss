@@ -66,6 +66,32 @@ li {
   margin: 20px;
   align-items: center;
   padding: 20px;
+
+  &__before-times {
+    display: flex;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    // border-radius: 10px;
+    margin: 0px 20px 20px 20px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  &__what-next {
+    display: flex;
+    height: 650;
+    background-color: rgba(255, 255, 255, 0.2);
+    // border-radius: 10px;
+    margin: 0px 20px 20px 20px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }
 
 .split-cards * {
@@ -120,6 +146,23 @@ li {
   }
 }
 
+.floating-card-before-times {
+  &__half-right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-end;
+    overflow: scroll;
+    max-height: 100%;
+    max-width: 50%;
+  }
+}
 .floating-card-leadership {
   &__half-left {
     background-color: white;
@@ -151,6 +194,26 @@ li {
     max-height: 100%;
   }
 }
+
+.floating-card-before-times {
+  &__half-left {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    // display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    // align-self: flex-end;
+    overflow: scroll;
+    max-height: 100%;
+  }
+}
+
+
 
 .full-page-hero {
   border-radius: 5px;
@@ -227,8 +290,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-top: 25px;
+  // padding-top: 25px;
   align-self: center;
+  &__padding {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 25px;
+    align-self: center;
+  }
 }
 
 small {
@@ -327,6 +397,77 @@ color: gray;
   max-width: 40%;
 }
 
+.before-times-photo-grid {
+  display: grid;
+  // grid-gap: 5rem;
+  grid-template-columns: 200px 200px;
+}
+
+.before-times {
+  flex-basis: 0;
+}
+
+.before-times-photo {
+ &__top-left {
+  transform: rotate(20deg);
+ }
+ &__top-right {
+  transform: rotate(-10deg);
+  top: -25px;
+  position: relative;
+ }
+ &__bottom-left {
+  transform: rotate(-20deg);
+  top: -25px;
+  right: -25px;
+  position: relative;
+ }
+ &__bottom-right {
+  rotate: 30;
+  transform: rotate(10deg);
+  top: -25px;
+  left: -20px;
+  position: relative;
+ }
+}
+
+.before-times-flex-wrapper {
+  overflow: scroll;
+}
+
+
+.before-times-headline {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  // margin-bottom: 0px;
+  align-items: center;
+  padding: 20px;
+  // width: 100vw;
+  width: -webkit-calc(100vw - 40px);
+  width:    -moz-calc(100vw - 40px);
+  width:         calc(100vw - 40px);
+  margin: 20px 20px 0px 20px;
+}
+
+.what-next-boxes {
+background-color: white;
+border-radius: 10px;
+}
+
+.what-next-boxes > profile-icons {
+  padding: 0;
+}
+
+.navigation-flex-box {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  overflow: hidden;
+  // background-color: #333;
+}
 
 @import "../../node_modules/bulma/bulma.sass";
 // @import '../../node_modules/react-awesome-slider/dist/custom-animations/cube-animation.css';

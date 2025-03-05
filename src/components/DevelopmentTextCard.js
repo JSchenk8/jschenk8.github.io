@@ -36,9 +36,6 @@ export default function ProfileCard() {
           can pick up new products quickly and understand how best to deliver the best possible work
           for both team members and customers.
         </p>
-        <p className="margin-top-20"></p>
-        <p className="margin-top-20"></p>
-        <p className="margin-top-20"></p>
       </div>
     </section>
   )

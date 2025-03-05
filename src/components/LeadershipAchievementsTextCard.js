@@ -38,20 +38,20 @@ export default function ProfileCard() {
         <p className="margin-top-20">
           Creating processes for the team to work with our internal Product and Devops team were
           were able to achieve two things:
-          <ul>
-            <li>
-              Firstly, we are in constant communication about incoming features in each bi-monthly
-              release. This allows team members to approach their respective customers and pre-plan
-              the implementation, customisation and deployment of new features.{' '}
-            </li>
-            <li>
-              Secondly, the team are able to own their own deployments. By creating a setup using
-              Flux and Terraform that simplifies down to release versions managed through semantic
-              release, everyone in the team has a simple and efficient way to manage features
-              released across development, staging and production environments.
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li>
+            Firstly, we are in constant communication about incoming features in each bi-monthly
+            release. This allows team members to approach their respective customers and pre-plan
+            the implementation, customisation and deployment of new features.{' '}
+          </li>
+          <li>
+            Secondly, the team are able to own their own deployments. By creating a setup using Flux
+            and Terraform that simplifies down to release versions managed through semantic release,
+            everyone in the team has a simple and efficient way to manage features released across
+            development, staging and production environments.
+          </li>
+        </ul>
         <p className="margin-top-20">
           By enabling teams to work together, each individual team member gained more autonomy over
           their work. This increased quality by empowering team members to own their projects and
