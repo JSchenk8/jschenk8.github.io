@@ -208,7 +208,7 @@ li {
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     // align-self: flex-end;
-    overflow: scroll;
+    overflow: visible;
     max-height: 100%;
   }
 }
@@ -410,24 +410,28 @@ color: gray;
 .before-times-photo {
  &__top-left {
   transform: rotate(20deg);
+  max-width: 110% !important;
  }
  &__top-right {
   transform: rotate(-10deg);
   top: -25px;
   position: relative;
+  max-width: 110% !important;
  }
  &__bottom-left {
   transform: rotate(-20deg);
   top: -25px;
-  right: -25px;
+  right: 15px;
   position: relative;
+  max-width: 120% !important;
  }
  &__bottom-right {
   rotate: 30;
-  transform: rotate(10deg);
-  top: -25px;
-  left: -20px;
+  transform: rotate(5deg);
+  top: -40px;
+  left: 10px;
   position: relative;
+  max-width: 110% !important;
  }
 }
 
