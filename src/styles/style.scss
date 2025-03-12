@@ -24,6 +24,10 @@ h1 {
   font-size: 140% !important;
 }
 
+h2 {
+  font-size: 120% !important;
+}
+
 ul {
   margin-left: 10px !important;
 }
@@ -60,7 +64,7 @@ li {
 
 .split-cards {
   display: flex;
-  height: 500px;
+  height: 70vh;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   margin: 20px;
@@ -271,9 +275,9 @@ li {
   // align-items: center;
 }
 
-.profile-text > h1, h3 {
+.profile-text > h1, h2, h3 {
   font-weight: bold;
-  color: black;
+  // color: black;
   display: flex;
   flex-direction: column;
   padding: 25px;

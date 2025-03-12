@@ -15,8 +15,7 @@ export default function ProfileCard() {
         <p className="margin-top-20">
           When individuals are encouraged to flourish and to focus on what they love they do their
           best work. Finding space for team members to explore their best selves whilst supporting
-          each other <br />
-          is what drives me in my daily work as a department head.
+          each other is what drives me in my daily work as a department head.
         </p>
         <p className="margin-top-20">
           In the same breath, playing to my strengths in alleviating pressure from team members on a

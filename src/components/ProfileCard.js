@@ -13,7 +13,8 @@ export default function ProfileCard() {
             solutions
           </p>
           <p className="margin-top-20">
-            Read on to learn how I got here and what I could do for you...
+            With an experience in Software and Solutions engineering and a background in performance
+            coaching, read on to learn how I got here and what I could do for you...
           </p>
         </div>
         <img
