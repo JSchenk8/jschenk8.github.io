@@ -6,7 +6,6 @@ import {FaLinkedin} from 'react-icons/fa'
 import {FaFileDownload} from 'react-icons/fa'
 
 export default function ClickBoxes(props) {
-  console.log(props)
   const [copied, updateCopied] = useState(false)
   function copyEmail() {
     navigator.clipboard.writeText('jcschenk8@gmail.com')
@@ -37,6 +36,7 @@ export default function ClickBoxes(props) {
           >
             <button className="button m-0 is-medium is-primary">
               <FaFileDownload />
+              <h3 className="cv-label">CV</h3>
             </button>
           </a>
         </IconContext.Provider>

@@ -14,12 +14,12 @@ export default function ProfileCard() {
           </p>
           <p className="margin-top-20">
             With an experience in Software and Solutions engineering and a background in performance
-            coaching, read on to learn how I got here and what I could do for you...
+            coaching, read on to learn how I got here and what I could do for you.
           </p>
         </div>
         <img
           src={profilePhoto}
-          alt="photograph of joseph schenk"
+          alt="portrait photograph of joseph schenk in a blue shirt in front of a grafiti wall"
           className="profile-photo"
         ></img>
       </div>

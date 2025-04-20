@@ -1,16 +1,14 @@
 import React from 'react'
-import profilePhoto from '../images/joseph-2024.jpg'
-
 export default function ProfileCard() {
   return (
     <section>
       <div className="leadership-flex-box">
         {/* <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
          */}
-        <h1>Leadership</h1>
+
         <p className="margin-top-20">
-          I believe leadership is about enabling individuals to play to their strengths. This way,
-          the team itself plays as a whole to its strength.
+          I believe leadership is about enabling individuals to play to their strengths whilst
+          working together towards the common goal and purpose of a team.
         </p>
         <p className="margin-top-20">
           When individuals are encouraged to flourish and to focus on what they love they do their

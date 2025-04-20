@@ -6,7 +6,6 @@ export default function ProfileCard() {
       <div className="development-flex-box">
         {/* <img src={profilePhoto} alt="photograph of joseph schenk" className="profile-photo"></img>
          */}
-        <h1>Software Engineering</h1>
         <p className="margin-top-20">
           Having studied Mechanical Engineering and written a thesis paper on computer vision in
           Matlab, I made the decision to requalify as a Software Developer I enrolled in a three
