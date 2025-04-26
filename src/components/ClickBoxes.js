@@ -34,7 +34,7 @@ export default function ClickBoxes(props) {
           </a>
           <a
             target="_blank"
-            href="../files/CV2025.pdf"
+            href="../CV2025.pdf"
           >
             <button className="button m-0 is-medium is-primary">
               <FaFileDownload />
