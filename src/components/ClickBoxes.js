@@ -34,7 +34,8 @@ export default function ClickBoxes(props) {
           </a>
           <a
             target="_blank"
-            href="./CV2025.pdf"
+            href="https://jschenk8.github.io/src/files/CV2025.pdf"
+            type="application/pdf"
           >
             <button className="button m-0 is-medium is-primary">
               <FaFileDownload />
