@@ -5,8 +5,6 @@ import {IconContext} from 'react-icons/lib'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaFileDownload} from 'react-icons/fa'
 
-// import cv2025 from '../files/CV2025.pdf'
-
 export default function ClickBoxes(props) {
   const [copied, updateCopied] = useState(false)
   function copyEmail() {
@@ -34,7 +32,7 @@ export default function ClickBoxes(props) {
           </a>
           <a
             target="_blank"
-            href="https://jschenk8.github.io/src/files/CV2025.pdf"
+            href="https://js-cv-25.ezihost.net"
           >
             <button className="button m-0 is-medium is-primary">
               <FaFileDownload />
