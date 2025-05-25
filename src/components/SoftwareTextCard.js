@@ -5,7 +5,7 @@ import pointingAtHohenRausch from '../images/pointing_at_hohenrausch.jpg'
 export default function ProfileCard() {
   return (
     <section className="why-software">
-      <h3 className="margin-top-30">So Why Software?</h3>
+      <h3 className="margin-top-30">And into Software</h3>
       <p className="margin-top-30">
         All of this was well and good. But I was uninspired. I had turned my hobbies into my work
         and then was floating through my twenties working hard but not mentally challenged.
