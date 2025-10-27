@@ -7,7 +7,7 @@ export default function ProfileCard() {
       <div className="profile-flex-box">
         <div className="profile-text">
           <h1>Joseph Schenk</h1>
-          <h3>Leader, Software Engineer, Consultant, Communicator</h3>
+          <h3>Generalist, Problem solver, Communicator, Software Engineer</h3>
           <p className="margin-top-20">
             I lead teams, build processes and solve problems by designing and implementing software
             solutions
