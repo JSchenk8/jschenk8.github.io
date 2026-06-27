@@ -7,10 +7,12 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "turbo format",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "@types/node": "^25.9.2",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "turbo": "^2.9.15",
