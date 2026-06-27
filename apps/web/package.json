@@ -5,12 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build  && cp dist/index.html dist/404.html",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "np run build && gh-pages -d dist"
   },
   "dependencies": {
     "@workspace/ui": "*",
