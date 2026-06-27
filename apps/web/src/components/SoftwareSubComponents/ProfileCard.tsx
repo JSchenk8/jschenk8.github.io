@@ -15,7 +15,7 @@ export default function ProfileCard(): React.JSX.Element {
           </p>
         </div>
         <img
-          src="images/software/joseph-2024.jpg"
+          src="images/software/joseph-2024.webp"
           alt="portrait photograph of joseph schenk in a blue shirt in front of a grafiti wall"
           className="profile-photo"
         ></img>

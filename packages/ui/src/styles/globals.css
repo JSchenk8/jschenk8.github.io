@@ -188,7 +188,7 @@ li {
 }
 
 .landing-page {
-  background-image: url("../../../../apps/web/public/images/software/LandingImage.jpg");
+  background-image: url("../../../../apps/web/public/images/software/LandingImage.webp");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -516,7 +516,7 @@ color: gray;
 }
 
 .landing-image {
-  background-image: url(../images/LandingImage.jpg);
+  background-image: url(../images/LandingImage.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

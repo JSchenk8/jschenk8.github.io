@@ -1,7 +1,6 @@
 import BeforeTimesPhotoCard from './BeforeTimesPhotoCard'
 import BeforeTimesTextCard from './BeforeTimesTextCard'
 import SoftwareTextCard from './SoftwareTextCard'
-// import profilePhoto from '../images/joseph-2024.jpg'
 export default function LandingPage(): React.JSX.Element {
   return (
     <section

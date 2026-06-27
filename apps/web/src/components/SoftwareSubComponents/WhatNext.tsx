@@ -1,7 +1,6 @@
 import WhatNextTextCard from './WhatNextTextCard'
 import PhotoCard from './Photocard'
 import ClickBoxes from './ClickBoxes'
-// import profilePhoto from '../images/joseph-2024.jpg'
 export default function LandingPage(): React.JSX.Element {
   return (
     <section
@@ -17,7 +16,7 @@ export default function LandingPage(): React.JSX.Element {
         </div>
         <div className="floating-card-development__half-right forty-width">
           <PhotoCard
-            src="images/software/pointing_at_hohenrausch.JPG"
+            src="images/software/pointing_at_hohenrausch.webp"
             alt={'photograph of joseph schenk pointing up at a rock'}
             className=""
           />

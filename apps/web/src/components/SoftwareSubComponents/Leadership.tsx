@@ -13,7 +13,7 @@ export default function Leadership(): React.JSX.Element {
       <div className="split-cards margin-none">
         <div className="floating-card-leadership__half-left forty-width">
           <PhotoCard
-            src="images/software/presenting.jpg"
+            src="images/software/presenting.webp"
             alt={'photograph of joseph schenk presenting an idea'}
             className={'leadership-photo'}
           />

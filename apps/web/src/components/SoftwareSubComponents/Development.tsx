@@ -14,7 +14,7 @@ export default function LandingPage(): React.JSX.Element {
         </div>
         <div className="floating-card-development__half-right forty-width">
           <PhotoCard
-            src="images/software/spotlight-audio.jpg"
+            src="images/software/spotlight-audio.webp"
             alt={'photograph of joseph schenk mixing audio for a live stream'}
             className={'development-photo'}
           />

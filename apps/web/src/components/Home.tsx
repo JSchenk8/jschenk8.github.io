@@ -3,32 +3,32 @@ import HomeButton from './HomeButton'
 import type { ButtonData } from '../types/index.ts'
 const photographyImages = [
   {
-    url: '/images/home/SquareCosmiqueHut.jpg',
+    url: '/images/home/SquareCosmiqueHut.webp',
     title: 'SquareCosmiqueHut',
     width: '100%'
   },
   {
-    url: '/images/home/SquareDolomites.jpg',
+    url: '/images/home/SquareDolomites.webp',
     title: 'Burgers',
     width: '100%'
   },
   {
-    url: '/images/home/SquareItalyFromSlovenia.jpg',
+    url: '/images/home/SquareItalyFromSlovenia.webp',
     title: 'Camera',
     width: '100%'
   },
   {
-    url: '/images/home/SquareSlovenia.jpg',
+    url: '/images/home/SquareSlovenia.webp',
     title: 'Camera',
     width: '100%'
   },
   {
-    url: '/images/home/SquareStBernard.jpg',
+    url: '/images/home/SquareStBernard.webp',
     title: 'Camera',
     width: '100%'
   },
   {
-    url: '/images/home/SquareSunset.jpg',
+    url: '/images/home/SquareSunset.webp',
     title: 'Camera',
     width: '100%'
   }
@@ -36,12 +36,12 @@ const photographyImages = [
 
 const productImages = [
   {
-    url: '/images/home/SquareCatherineWriting.jpg',
+    url: '/images/home/SquareCatherineWriting.webp',
     title: 'Camera',
     width: '100%'
   },
     {
-    url: '/images/home/SquareCatherineWriting.jpg',
+    url: '/images/home/SquareCatherineWriting.webp',
     title: 'Camera',
     width: '100%'
   }

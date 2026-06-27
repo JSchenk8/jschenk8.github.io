@@ -38,7 +38,7 @@ export default function Photography(): React.JSX.Element {
 return (
     <div className="relative h-screen w-full">
       <img
-        src="images/software/LandingImage.jpg"
+        src="images/software/LandingImage.webp"
         alt="Background"
         className="h-full w-full object-cover"
       />
